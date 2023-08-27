@@ -6,6 +6,6 @@ import "@openzeppelin/contracts@4.9.3/access/Ownable.sol";
 
 contract Playplaylottery is ERC20, Ownable {
     constructor() ERC20("playplaylottery", "PPL") {
-        _mint(msg.sender, 10000 * 10 ** decimals());
+        _mint(msg.sender, 1000 * 10 ** decimals());
     }
 }
